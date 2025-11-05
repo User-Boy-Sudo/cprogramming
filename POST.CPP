@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int a=15,b=a--,d=5;
+clrscr();
+int c=++a+--b-a+b++-d;
+printf("%d,%d,%d,%d",a,b,c,d);
+getch();
+}
